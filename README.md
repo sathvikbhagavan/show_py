@@ -1,6 +1,6 @@
 # show-py
 
-A Python package that mimics Julia's `@show` macro, allowing you to print expressions and their values in a convenient way.
+A Python package that prints an expression along with its value in a convenient way.
 
 ## Installation
 
@@ -57,7 +57,7 @@ show(
 
 ## Use Case: Debugging Code
 
-The `show` function is particularly useful for debugging code. Instead of manually adding print statements, you can quickly inspect variable values and expressions:
+The `show` function is particularly useful for debugging code. Instead of adding print statements and trying to match what each value correspond to, you can quickly inspect variable values and expressions:
 
 ```python
 from show_py import show
